@@ -7,11 +7,11 @@ function ETo(monthNumber) {
 
   var meanTemp2019min = [18.1, 16.8,	15.6,	14.1, 10.8, 8.2, 9.4, 7.7,	9.0, 12.3, 12.4, 16.8, 12.6];
 
-  var meanDailyPercentOfAnnualDayHours = [.32, .30, .28, .25, .23, .22, .23, .25, .27, .29, .31, .32]
+  var meanDailyPercentOfAnnualDayHours = [.32, .30, .28, .25, .23, .22, .23, .25, .27, .29, .31, .32];
 
   var meanMonthTemp = (meanTemp2019max[monthNumber - 1] + meanTemp2019min[monthNumber - 1]) / 2;
 
-  var ETo = meanDailyPercentOfAnnualDayHours[monthNumber - 1] * (0.46 * meanMonthTemp + 8)
+  var ETo = meanDailyPercentOfAnnualDayHours[monthNumber - 1] * (0.46 * meanMonthTemp + 8);
 
 }
 
