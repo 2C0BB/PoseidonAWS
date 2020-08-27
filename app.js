@@ -50,8 +50,5 @@ Http.send();
 
 Http.onreadystatechange = (e) => {
   console.log(Http.responseText);
+  document.getElementById('citationsList').innerHTML = Http.responseText;
 }
-
-document.getElementById('citationsText').style.display = "block"
-document.getElementById("citationsList").innerHTML() = Http.responseText;
-document.getElementById('citationsText').style.display = "none"
