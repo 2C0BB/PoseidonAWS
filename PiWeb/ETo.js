@@ -13,6 +13,8 @@ function ETo(monthNumber) {
 
   var ETo = meanDailyPercentOfAnnualDayHours[monthNumber - 1] * (0.46 * meanMonthTemp + 8);
 
+  return ETo;
+
 }
 
 export { ETo };
