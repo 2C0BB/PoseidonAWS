@@ -16,6 +16,14 @@ function openUse() {
     }
 }
 
+function openBuild() {
+    if (document.getElementById('buildText').style.display == "none") {
+
+        document.getElementById('buildText').style.display = "block"
+    } else {
+        document.getElementById('buildText').style.display = "none"
+    }
+}
 function openLinks() {
     if (document.getElementById('linksText').style.display == "none") {
 

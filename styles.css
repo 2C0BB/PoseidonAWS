@@ -1,5 +1,6 @@
+h1{text-align: center;color: #ffe478;}
+
 body{
-    text-align: center;
     font-family: 'Ubuntu', sans-serif;
 
     background-image: url("bkg.png");
@@ -14,6 +15,15 @@ body{
 #use:hover{
     color:#ffffff;
 }
+#build:hover{
+    color: #ffffff;
+}
 #links:hover{
     color: #ffffff;
 }
+.build{color:#5e315b;}
+.links{color:#8c3f5d;}
+.use{color:#ba6156;}
+.info{color:#f2a65e;}
+
+a{color:#8c3f5d;}
