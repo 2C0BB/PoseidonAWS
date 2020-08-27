@@ -5,7 +5,7 @@ body{
     background-image: url("bkg.png");
     background-repeat: repeat;
 
-    color: #0fcdff;
+    color: blue;
 }
 
 #info:hover{
