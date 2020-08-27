@@ -3,10 +3,9 @@ h1{text-align: center;color: #ffe478;}
 body{
     font-family: 'Ubuntu', sans-serif;
 
-    background-image: url("bkg.png");
-    background-repeat: repeat;
 
     color: blue;
+    background-color: #272736;
 }
 
 #info:hover{
@@ -21,9 +20,12 @@ body{
 #links:hover{
     color: #ffffff;
 }
-.build{color:#5e315b;}
+#citations:hover{
+    color: #ffffff;
+}
+.build{color:#ffb5b5;}
 .links{color:#8c3f5d;}
 .use{color:#ba6156;}
 .info{color:#f2a65e;}
-
+.citations{color:#eb564b;}
 a{color:#8c3f5d;}

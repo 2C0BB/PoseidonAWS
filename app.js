@@ -32,3 +32,12 @@ function openLinks() {
         document.getElementById('linksText').style.display = "none"
     }
 }
+
+function openCitations() {
+    if (document.getElementById('citationsText').style.display == "none") {
+
+        document.getElementById('citationsText').style.display = "block"
+    } else {
+        document.getElementById('citationsText').style.display = "none"
+    }
+}
