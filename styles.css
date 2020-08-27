@@ -5,5 +5,15 @@ body{
     background-image: url("bkg.png");
     background-repeat: repeat;
 
+    color: #0fcdff;
+}
+
+#info:hover{
+    color:#ffffff;
+}
+#use:hover{
+    color:#ffffff;
+}
+#links:hover{
     color: #ffffff;
 }
