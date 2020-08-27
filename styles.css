@@ -1,11 +1,9 @@
 body{
-text-align: center;
-}
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 
-p{
-font-family: comic-sans-ms;
-}
+    background-image: url("bkg.png");
+    background-repeat: repeat;
 
-h1{
-font-family: comic-sans-ms;
+    color: #ffffff;
 }
