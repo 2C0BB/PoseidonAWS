@@ -1,3 +1,13 @@
+function openText(type){
+    if (document.getElementById(type+'Text').style.display == "none") {
+
+        document.getElementById(type+'Text').style.display = "block"
+    } else {
+        document.getElementById(type+'Text').style.display = "none"
+    }
+}
+
+
 function openInfo() {
     if (document.getElementById('infoText').style.display == "none") {
 
