@@ -20,3 +20,5 @@ var kcInitStage = 0.45;
 var kcDevStage = 0.75;
 var kcMidStage = 1.15;
 var kcLateStage = 0.80;
+
+export { put vars here lul };
