@@ -12,3 +12,11 @@ var maxMidTime = 70;
 
 var minLateTime = 25;
 var maxLateTime = 30;
+
+
+
+
+var kcInitStage = 0.45;
+var kcDevStage = 0.75;
+var kcMidStage = 1.15;
+var kcLateStage = 0.80;
