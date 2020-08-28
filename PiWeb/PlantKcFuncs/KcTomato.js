@@ -1,14 +1,14 @@
-var minTotalTime
-var maxTotalTime
+var minTotalTime = 135;
+var maxTotalTime = 180;
 
-var minInitTime
-var maxInitTime
+var minInitTime = 30;
+var maxInitTime = 35;
 
-var minDevTime
-var maxDevTime
+var minDevTime = 40;
+var maxDevTime = 45;
 
-var minMidTime
-var maxMidTime
+var minMidTime = 40;
+var maxMidTime = 70;
 
-var minLateTime
-var maxLateTime
+var minLateTime = 25;
+var maxLateTime = 30;
