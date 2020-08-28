@@ -42,6 +42,8 @@ function openCitations() {
     }
 }
 
+var items
+var ul = document.getElementById("citationsList");
 
 const Http = new XMLHttpRequest();
 const url='https://raw.githubusercontent.com/PixelMaker06/PoseidonAWS/master/cites.txt';
@@ -51,4 +53,14 @@ Http.send();
 Http.onreadystatechange = (e) => {
   console.log(Http.responseText);
   document.getElementById('citationsList').innerHTML = Http.responseText;
+  items = Http.responseText.split(" ");
 }
+
+
+items.forEach(function (item) {
+    let li = document.createElement('li');
+    ul.appendChild(li);
+
+    li.innerHTML += item;
+});
+
