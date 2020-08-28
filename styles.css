@@ -1,4 +1,6 @@
-h1{text-align: center;color: #ffe478;}
+h1{text-align: center;background-image:url("bkg.png");background-repeat:repeat;}
+
+/*color: #ffe478;*/
 
 h2{
     -webkit-touch-callout: none;
