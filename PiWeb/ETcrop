@@ -11,7 +11,9 @@ function ETcrop(roughDateStart, monthStart, roughDateCurrent, monthCurrent, crop
 //ETo x Kc = ETcrop
 //Export function
 
-func(
+func(roughDateCurrent, monthCurrent) - func(roughDateStart, monthStart) = thing
+
+while thing =< 0 {}
 
 
 
