@@ -1,4 +1,4 @@
-import ./TomatoKC
+import {minTotalTime, maxTotalTime, minInitTime, maxInitTime, minDevTime, maxDevTime, minMidTime, maxMideTime, minLateTime, maxLateTime, kcInitStage, kcDevStage, kcMidStage, kcLateStage} ./TomatoKC;
 
 
 function ETcrop(roughDate, month, crop) {
