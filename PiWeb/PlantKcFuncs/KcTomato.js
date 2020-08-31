@@ -21,4 +21,4 @@ var kcDevStage = 0.75;
 var kcMidStage = 1.15;
 var kcLateStage = 0.80;
 
-export { put vars here lul };
+export {minTotalTime, maxTotalTime, minInitTime, maxInitTime, minDevTime, maxDevTime, minMidTime, maxMideTime, minLateTime, maxLateTime, kcInitStage, kcDevStage, kcMidStage, kcLateStage};
