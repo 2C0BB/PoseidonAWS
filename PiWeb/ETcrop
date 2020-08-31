@@ -1,10 +1,17 @@
 import {minTotalTime, maxTotalTime, minInitTime, maxInitTime, minDevTime, maxDevTime, minMidTime, maxMideTime, minLateTime, maxLateTime, kcInitStage, kcDevStage, kcMidStage, kcLateStage} ./TomatoKC;
 
 
-function ETcrop(roughDate, month, crop) {
+function ETcrop(roughDateStart, monthStart, roughDateCurrent, monthCurrent, crop) {
 
+//ETo x Kc
+//Find current date - start date
+//Find what stage it is in, maybe while loop subtract amount of each untill 0 or negtive
+//Use previous number to get Kc factor
+//Get ETo with ETo function
+//ETo x Kc = ETcrop
+//Export function
 
-
+func(
 
 
 
