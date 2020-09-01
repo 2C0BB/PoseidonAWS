@@ -11,10 +11,16 @@ function ETcrop(roughDateStart, monthStart, roughDateCurrent, monthCurrent, crop
 //ETo x Kc = ETcrop
 //Export function
 
-func(roughDateCurrent, monthCurrent) - func(roughDateStart, monthStart) = thing
 
-while thing =< 0 {}
+var meanInitTime =
+var meanDevTime = 
+var meanMidTime =
+var meanLateTime =
 
 
 
-}
+
+
+var thing =  func(roughDateCurrent, monthCurrent) - func(roughDateStart, monthStart);
+
+if((thing -
