@@ -12,10 +12,10 @@ function ETcrop(roughDateStart, monthStart, roughDateCurrent, monthCurrent, crop
 //Export function
 
 
-var meanInitTime = (minInitTime + maxInitTime) / 2
-var meanDevTime = (minDevTime + maxDevTime) / 2
-var meanMidTime = (minMidTime + maxMidTime) / 2
-var meanLateTime = (minLateTime + maxLateTime) / 2
+var meanInitTime = (minInitTime + maxInitTime) / 2;
+var meanDevTime = (minDevTime + maxDevTime) / 2;
+var meanMidTime = (minMidTime + maxMidTime) / 2;
+var meanLateTime = (minLateTime + maxLateTime) / 2;
 
 
 
